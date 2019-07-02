@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3efa0fd-daad-4d80-9611-9426d6e0d09b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CVE_Details/CVE_Details/CVE_Details.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE_Details/CVE_Details/CVE_Details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE_Details/CVE_Details/CVE_Details.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CVE_Details/CVE_Details/cve_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firmware-url-Detection/databackup/openwrt/url_spider_openwrt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firmware-url-Detection/dataset/allurl/all_url_label.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firmware-url-Detection/test/have_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Firmware-url-Detection/url_process/csv_rowvaluechange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cankao/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geturl/connect_MongoDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geturl/proxy_ips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firmware-tools/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmCrawler/.idea/FirmCrawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirmCrawler/.idea/FirmCrawler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmCrawler/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirmCrawler/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmCrawler/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirmCrawler/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmCrawler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirmCrawler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmCrawler/FirmCrawler/FirmCrawler/spiders/tomatoSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FirmCrawler/FirmCrawler/FirmCrawler/spiders/tomatoSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmCrawler/VendorFirmwareCrawl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmwareURL/.idea/FirmwareURL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebsiteURL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmwareURL/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmwareURL/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmwareURL/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmwareURL/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmwareURL/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirmwareURL/geturl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Firmware-url-Detection/test/getfile_size.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/.idea/FirmCrawler.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/50log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/abbSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/asus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/att.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/belkin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/centurylink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/ciscoSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/dahuaSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/ddwrtSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/djiSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/dlink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/draytekSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/fastSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/hikvisionSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/hiwifiSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/ipcomSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/jcgSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/lblinkSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/mercurySpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/microstrain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/mikrotik.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/miwifiSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/netcoreSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/netgear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/openwrtSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/polycom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/polycomrow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/qnoSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/rockwellSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/schneriderSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/seiki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/siemensSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/sundraySpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/supermicro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/synology.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/tendaSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/tenvis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/tgnetSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/ti.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/tomato.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/tomaxSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/totolinkSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/tplinkSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/trendnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/ubiquiti.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/ublox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/uttSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/verizon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/vipaSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/volansSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/wayosSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/spiders/xerox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/FirmCrawler/useragentmiddleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/ciscodownload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/ftpFiles_Download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/ghostdriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/proxy_ips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firmware备份/FirmCrawler/user_agents.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vulnerability_Database/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vulnerability_Database/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-236979132">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="4" />
+          <entry key="py" value="88" />
+          <entry key="txt" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="Python" value="88" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="60" />
+          <entry key="py" value="6931" />
+          <entry key="txt" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="Python" value="6931" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/geturl/website_URL_Extract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+              <folding>
+                <element signature="e#147#156#0" expanded="true" />
+                <marker date="1542869268692" expanded="true" signature="438:553" ph="..." />
+                <marker date="1542869268692" expanded="true" signature="1322:1422" ph="..." />
+                <marker date="1542869268692" expanded="true" signature="2292:2450" ph="..." />
+                <marker date="1542869268692" expanded="true" signature="5488:5491" ph="..." />
+                <marker date="1542869268692" expanded="true" signature="8691:9423" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sameurl</find>
+      <find>writetofile</find>
+      <find>url_check</find>
+      <find>pagelinks</find>
+      <find>unvisitedurlsempty</find>
+      <find>getunvistedurlcount</find>
+      <find>removevisitedurl</find>
+      <find>parse</find>
+      <find>get_href</find>
+      <find>http://tomato.groov.pl/download/MariuszNM/ND-VPN/tomato-ND_1.25VPN-PL.4b472ff0H.trx</find>
+      <find>http://tomato.groov.pl/..</find>
+      <find>http://tomato.groov.pl/download/K26/build5x-116-PL/tomato-E3000USB-NVRAM60K-1.28.RT-MIPSR2-116-PL-BTgui-VPN.bin</find>
+      <find>http://tomato.groov.pl/download/MariuszNM/ND-VPN/tomato-ND_1.25VPN-PL.4b472f84.trx</find>
+      <find>.sh</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/geturl.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/allurl.py" />
+        <option value="$PROJECT_DIR$/user_agents.py" />
+        <option value="$PROJECT_DIR$/urlCrawler.py" />
+        <option value="$PROJECT_DIR$/geturl_test/list.py" />
+        <option value="$PROJECT_DIR$/geturl_test/main.py" />
+        <option value="$PROJECT_DIR$/geturl_test/url.txt" />
+        <option value="$PROJECT_DIR$/geturl_test/urllister.py" />
+        <option value="$PROJECT_DIR$/geturl/proxy_ip.py" />
+        <option value="$PROJECT_DIR$/geturl/proxy_ips.py" />
+        <option value="$PROJECT_DIR$/test/crawler.py" />
+        <option value="$PROJECT_DIR$/geturl/urlCrawler.py" />
+        <option value="$PROJECT_DIR$/WebScrapperBot-master/README.md" />
+        <option value="$PROJECT_DIR$/WebScrapperBot-master/web_indexer.py" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/geturl/connect_MongoDB.py" />
+        <option value="$PROJECT_DIR$/use/crawlquanzhan.py" />
+        <option value="$PROJECT_DIR$/geturl/url_tomato.txt" />
+        <option value="$PROJECT_DIR$/url_deal/url_clear.txt" />
+        <option value="$PROJECT_DIR$/url_deal/urls_tomato.txt" />
+        <option value="$PROJECT_DIR$/url_deal/not_firmwareurl_tomato.txt" />
+        <option value="$PROJECT_DIR$/url_deal/deal.py" />
+        <option value="$PROJECT_DIR$/data_deal/deal.py" />
+        <option value="$PROJECT_DIR$/data_deal/quchong.py" />
+        <option value="$PROJECT_DIR$/data_deal/select_amigo.txt" />
+        <option value="$PROJECT_DIR$/use/geturl.py" />
+        <option value="$PROJECT_DIR$/delete_test/test.py" />
+        <option value="$PROJECT_DIR$/geturl/urls.txt" />
+        <option value="$PROJECT_DIR$/data_deal/random_select.py" />
+        <option value="$PROJECT_DIR$/geturl/dns_sim.py" />
+        <option value="$PROJECT_DIR$/geturl/website_URL_Extract.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="7" />
+    <option name="width" value="1866" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebsiteURL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebsiteURL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebsiteURL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebsiteURL" type="462c0819:PsiDirectoryNode" />
+              <item name="delete_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebsiteURL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebsiteURL" type="462c0819:PsiDirectoryNode" />
+              <item name="geturl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="G:/url_detection/DetectMaliciousURL-master" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\WebsiteURL\data_deal" />
+      <recent name="G:\workspace\WebsiteURL\cankao" />
+      <recent name="G:\workspace\WebsiteURL\url_deal" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\WebsiteURL\geturl" />
+      <recent name="G:\workspace\WebsiteURL\data_deal" />
+      <recent name="G:\workspace\WebsiteURL\url_deal" />
+      <recent name="G:\workspace\WebsiteURL" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.website_URL_Extract (2)">
+    <configuration name="random_select" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebsiteURL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_deal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_deal/random_select.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebsiteURL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/delete_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/delete_test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="website_URL_Extract (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebsiteURL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geturl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\workspace\WebsiteURL\geturl\website_URL_Extract_old.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="website_URL_Extract (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebsiteURL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geturl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geturl/website_URL_Extract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="website_URL_Extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebsiteURL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geturl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\workspace\WebsiteURL\geturl\website_URL_Extract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.random_select" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.website_URL_Extract" />
+      <item itemvalue="Python.website_URL_Extract (1)" />
+      <item itemvalue="Python.website_URL_Extract (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.website_URL_Extract (2)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.website_URL_Extract (1)" />
+        <item itemvalue="Python.website_URL_Extract" />
+        <item itemvalue="Python.random_select" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3efa0fd-daad-4d80-9611-9426d6e0d09b" name="Default Changelist" comment="" />
+      <created>1540800807923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540800807923</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1476972" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" weight="0.32972628" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32807216" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49867934" weight="0.33596393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51183766" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919955" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920592" weight="0.264938" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50132066" side_tool="true" weight="0.19826652" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4997353" weight="0.32919955" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cankao/cankao2/crawler.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/geturl/website_URL_Extract_old.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/user_agents.py" />
+    <entry file="file://$PROJECT_DIR$/urlCrawler.py" />
+    <entry file="file://$PROJECT_DIR$/mian.py" />
+    <entry file="file://D:/software/python27/Lib/urllib2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/python27/Lib/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="571" selection-start-line="571" selection-end-line="571" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-crawler-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/allurl.py" />
+    <entry file="file://$PROJECT_DIR$/crawlquanzhan.py" />
+    <entry file="file://$PROJECT_DIR$/geturl.py" />
+    <entry file="file://D:/software/python27/Lib/urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl/proxy_ips.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl/user_agents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl/connect_MongoDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cankao/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScrapperBot-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-web-crawler-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/python-web-crawler-master/crawler.py" />
+    <entry file="file://$PROJECT_DIR$/cankao/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1266">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cankao/cankao2/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="121" column="39" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/use/crawlquanzhan.py" />
+    <entry file="file://$PROJECT_DIR$/use/mian.py" />
+    <entry file="file://$PROJECT_DIR$/web-crawler-master/webcrawler.py" />
+    <entry file="file://$PROJECT_DIR$/WebScrapperBot-master/web_indexer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6049">
+          <caret line="263" column="4" lean-forward="true" selection-start-line="263" selection-start-column="4" selection-end-line="263" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl/url_tomato.txt" />
+    <entry file="file://$PROJECT_DIR$/url_deal/url_clear.txt" />
+    <entry file="file://$PROJECT_DIR$/data_deal/url_clear.txt" />
+    <entry file="file://$PROJECT_DIR$/data_deal/urls_tomato.txt" />
+    <entry file="file://$PROJECT_DIR$/use/geturl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1794">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/use/allurl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2944">
+          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl_test/url.txt" />
+    <entry file="file://$PROJECT_DIR$/geturl_test/urllister.py" />
+    <entry file="file://D:/software/python27/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="182" column="32" lean-forward="true" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/python27/Lib/urlparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl/website_URL_Extract_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-679">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/python27/Lib/difflib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="220" column="8" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl_not_use/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="93" column="29" lean-forward="true" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl_not_use/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_deal/select_amigo.txt" />
+    <entry file="file://$PROJECT_DIR$/data_deal/select_amigo222.txt" />
+    <entry file="file://$PROJECT_DIR$/data_deal/url_spider_tomato.txt" />
+    <entry file="file://$PROJECT_DIR$/data_deal/url_spider_amigo.txt" />
+    <entry file="file://$PROJECT_DIR$/data_deal/not_firmwareurl_amigo_label.txt" />
+    <entry file="file://$PROJECT_DIR$/data_deal/not_firmwareurl_tomato.txt" />
+    <entry file="file://$PROJECT_DIR$/data_deal/firmwareurl_tomato.txt" />
+    <entry file="file://$PROJECT_DIR$/geturl/dns_sim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl/urls.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Firmware-url-Detection/url_process/random_select.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Firmware-url-Detection/url_process/deal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete_test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="75" column="47" lean-forward="true" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geturl/website_URL_Extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+          <folding>
+            <element signature="e#147#156#0" expanded="true" />
+            <marker date="1542869268692" expanded="true" signature="438:553" ph="..." />
+            <marker date="1542869268692" expanded="true" signature="1322:1422" ph="..." />
+            <marker date="1542869268692" expanded="true" signature="2292:2450" ph="..." />
+            <marker date="1542869268692" expanded="true" signature="5488:5491" ph="..." />
+            <marker date="1542869268692" expanded="true" signature="8691:9423" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
